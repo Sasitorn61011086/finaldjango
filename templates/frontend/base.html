@@ -1,6 +1,86 @@
 {% load static %}
-
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static './lib/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static './lib/fontawesome/css/all.min.css' %}">
+
+</head>
+<body>
+    <body style="background-color:papayawhip ;"></body>
+    <!-- Image and text -->
+    <div class="container">
+        <a class="navbar-brand" href="{% url 'index' %}">
+            <a class="nav-link" href="{% url 'about' %}" style="color:black"></a>
+            <img src="static/image/k7.png"  class="d-inline-block align-top" alt="" loading="lazy">
+<!-- <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+    <a class="navbar-brand"  href="{% url 'index' %}" style="color:black; font-size: 60px;">DELICIOUS-in-italianN</a> -->
+  
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="mx-auto">
+
+      <ul class="nav justify-content-center">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'about' %}" style="color:black">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'contact' %}" style="color:black">Contact</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" style="color:black">  </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-item" href="{% url 'index' %}" >   
+            <img src="static/image/s1.svg" width="35" height="35" class="d-inline-block align-top" alt="" loading="lazy">    
+          </a>
+        </li>
+      </ul> 
+      </dav>   
+</nav></div>
+<div class="container">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" style="color:black">________________________________________________________________________________________________________________________________________________________________________________________________________________</a>
+      </li>
+  </ul> 
+  
+  
+  </div>
+    {% block content %}
+    {% endblock %}<div class="container">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" style="color:black">________________________________________________________________________________________________________________________________________________________________________________________________________________________</a>
+          </li>
+      </ul> 
+      
+      
+      </div>
+
+    <footer class="footer " >
+      <div style="text-align:center; padding-top: 45px; margin-top:20px;">© 2020 Korean Ice Desert WebsitePrivacy Statement | Cookie Policy | Terms of Use | Advertising Notice | California Do Not Sell My Info | muaymuay Institution.|</div>
+      </dav> 
+      
+     
+      
+    </footer>
+    <script src="{% static './lib/jquery/jquery-2.2.4.js' %}"></script>
+    <script src="{% static './lib/popper/popper.min.js' %}"></script>
+    <script src="{% static './lib/bootstrap/js/bootstrap.min.js' %}"></script>
+
+</body>
+</html>
+{% comment %} <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,4 +121,4 @@
     <script src="{% static './lib/popper/popper.min.js' %}"></script>
     <script src="{% static './lib/bootstrap/js/bootstrap.min.js' %}"></script>
 </body>
-</html>
+</html> {% endcomment %}

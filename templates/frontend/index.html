@@ -2,6 +2,190 @@
 {% block title %} Home {% endblock %}
 {% block content %}
 <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"style="margin-top: 60px">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="static/image/b12.jpg" class="justify-content-center" stlye="width=100% height=60% "   alt="1">
+          </div>
+          <div class="carousel-item">
+            <img src="static/image/b22.jpg" class="d-block w-100"  alt="2">
+          </div>
+          <div class="carousel-item">
+            <img src="static/image/b33.jpg" class="d-block w-100"  alt="3">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="card-deck">
+    
+        <ul class="nav justify-content-center">
+          <a class="navbar-brand" href="{% url 'index' %}">
+            <a class="nav-link" href="{% url 'about' %}" style="color:black"></a>
+            
+          </a>
+        </ul>
+      </div>
+      <div class="container">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" style="color:black">  </a>
+          </li>
+      </ul> 
+      </dav>
+      <div class="card-deck">
+    
+        <ul class="nav justify-content-center">
+            <h1 class="card-title">Top places to get the best bingsu</h1>
+            <a class="navbar-brand" href="{% url 'index' %}">
+            <a class="nav-link" href="{% url 'about' %}" style="color:black"></a>
+            <img src="static/image/ice1.svg" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy"> 
+            
+    <div class="card-deck" style="margin-top:50px;">
+      <div class="card text-dark bg-light">
+        <img src="static/image/b101.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> After You </h5>
+          <p class="card-text">Known for its heart attack-inducing Shibuya honey toasts, After You is second to none when it comes to the Japanese-style dessert. 
+             One other thing the venue makes very well — apart from the chocolate lava cake, sticky toffee pudding, brownie, 
+             and crepe cake — is the Kakigori. Though this shaved ice dessert originated in Japan, the look is actually a lot like bingsu. Stop at one of their branches 
+             which are scattered throughout Bangkok for their Milo Volcano Kakigori (THB 245) if you’re a fan of the cocoa-basted drink, or go for the Thai Tea Kakigori (THB 255) 
+             if you prefer to grab a taste more toward Thai flavours.</p>
+          <p class="card-text"><small class="text-muted">Last updated 5 hours ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="static/image/b55.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Seobinggo</h5>
+          <p class="card-text">This pioneering Korean dessert cafe started off right in the heart of Siam Square earlier this year, 
+              introducing Bangkok not only to the fluffy snow-like frozen milk treats but also to Korean-style toast, 
+              glued together by melted tteok (rice cake). Apart from injeolmi (soy powder) and red beans (both starting at B140), 
+              other toppings come with a scoop of ice cream including the best-seller mango cheese (B235 for small) 
+              and the popular new addition, melon popsicle (B350).</p>
+          <p class="card-text"><small class="text-muted">Last updated one month ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="static/image/b92.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          
+          <h5 class="card-title">Sulbing</h5>
+          <p class="card-text">The mother of all bingsu brands, with more than 490 stores back home, 
+              Sulbing had humble beginnings 453 kilometers southwest of Seoul, 
+              in the port city of Busan. You may not rely on the name for the mellowest treats 
+              but do expect fun tweaks like melon (with tteok, red beans and corn flakes, B385) 
+              and yogurt melon (yogurt, cheesecake and half-melon, B395) on top of classic injeolmi 
+              and red bean (both B210). Alternatively, skip the ice and tuck into some toast or savory cheese stuffed tteok (both B140).</p>
+          <p class="card-text"><small class="text-muted">Last updated on this week</small></p>
+        </div>
+    
+      </div>
+    
+      <div class="container">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" style="color:black">  </a>
+          </li>
+      </ul> 
+      </dav>  
+    
+    
+      <div class="card-deck">
+        <div class="card">
+            <img src="static/image/ok1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              
+              <h5 class="card-title">Ok Bing Sul</h5>
+              <p class="card-text">This Bingsu franchise from Korea that takes pride in having one of the most delicate textures. 
+                  There's 12 different Bingsu you can choose from. 
+                  The top picks from us are the Strawberry Bingsu that uses fresh imported strawberries and the Brownie Bingsu that features a generous portion of homemade brownies.
+                   The best part of this place is the affordable price that will surely not put a hole in your wallet.</p>
+              <p class="card-text"><small class="text-muted">Last updated on this month</small></p>
+            </div>
+        
+          </div><div class="card">
+            <img src="static/image/han1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              
+              <h5 class="card-title">Han Bingo Korean Dessert Cafe</h5>
+              <p class="card-text">This dessert shop with white furniture and wooden decor that gives off a very cozy vibe. 
+                  There's even an outdoor section at the Emquartier branch for you to enjoy the view. The signature item here is the Bibimbap Bingo that draws inspiration 
+                  from the all-time favorite Korean bibimbap dish. Colorful fruits like Mango and Kiwi cover the whole bowl, 
+                  and an egg-shaped jelly just tops everything off perfectly. The taste? Pure delight!</p>
+              <p class="card-text"><small class="text-muted">Last updated on Monday</small></p>
+            </div>
+        
+          </div><div class="card">
+            <img src="static/image/gan1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              
+              <h5 class="card-title">Gangnam Bingsu</h5>
+              <p class="card-text">A very cute Korean dessert café run by a very kind Korean manager himself.
+                   The staff here are super friendly and they offer such a wide variety of Bingsu from juicy fresh Mango to savory cheese cubes. 
+                   Other than the awesome Bingsu, there's also the Berry Cherry Brick Toast that is simply crispy golden toast topped off with fresh fruits and sweets. 
+                   They also have a free blanket at your service in case you get cold!</p>
+              <p class="card-text"><small class="text-muted">Last updated on three hour</small></p>
+            </div>
+        
+          </div>
+      </div>
+      <div class="container">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" style="color:black">  </a>
+          </li>
+      </ul> 
+      </dav> 
+    </div>
+    <div class="container">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" style="color:black">  </a>
+        </li>
+    </ul> 
+    </dav>  
+    
+    
+    </div>
+    <div class="container">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" style="color:black">  </a>
+        </li>
+    </ul> 
+    </dav> 
+    </div>
+    <div class="container">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" style="color:black">  </a>
+      </li>
+    </ul> 
+    </dav>  
+    <ul class="nav justify-content-center">
+        <img src="static/image/m1.svg" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy"> 
+        <h1 class="card-title">Bingsu is a popular Korean iced dessert </h1>
+        <a class="navbar-brand" href="{% url 'index' %}">
+        <img src="static/image/m1.svg" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy"> 
+    </a></ul>
+    
+      
+    </div>
+    </div>
+    </div>
+<!-- <div class="container">
     <table class"table">
         <thead>
             <tr>
@@ -26,7 +210,9 @@
             {% endfor %}
         </tbody>
         </table>
-</div>
+</div> -->
+
+
 <!-- <div class="jumbotron">
     <h1 class="display-3">My Home page</h1>
     <p class="lead">Jumbo helper text</p>
